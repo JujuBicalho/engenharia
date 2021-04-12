@@ -1,0 +1,234 @@
+/*Estilos Gerais*/
+@import url("ttps://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap");
+
+body {
+    font-family: Montserrat, sans-serif;
+    color:rgb(51, 51, 58);
+    color:#e3a30e;
+    z-index: none;
+}
+
+.btn {
+    border: 3px solid rgb(51, 51, 58);
+    color: white;
+    background-color: rgb(51, 51, 58);
+    border-color: #e3a30e;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    letter-spacing: 0.1rem;
+    justify-content: center;
+    
+        
+
+}
+
+/*Header*/
+
+.header {
+    position: fixed;
+    width: 100%;
+    background-color:#e3a30e;
+    color:rgb(51, 51, 58);
+    text-transform: uppercase;
+    font-size: 0.8571rem ;
+    padding: 0;
+    margin: 0;
+ }
+
+.logo {
+    color:#fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1rem;  
+    margin: 0 100px;  
+    
+}
+
+.logo span {
+    font-weight: 700;
+}
+
+.logo__logo  p:after {
+    content:"";
+    display:block;
+    width: 100px;
+    height: 5px;
+    background-color: #fff;
+    margin: 5px 55px;
+    
+}
+.grid-4 {
+    display: block;
+    background-color:rgb(51, 51, 58);
+    padding-top: 50px;
+    margin: auto auto;
+       
+}
+
+.navbar__links {
+    text-align: end;
+    padding: 2.5rem;
+    line-height: 5px;
+    
+}
+
+.navbar__links ul li {
+    display: inline-block;
+    align-items: end;    
+    padding: 10px;
+}
+
+.navbar__links ul li:hover {
+    color: #fff;  
+}
+
+/*Intro*/
+
+.intro__container {
+    display:grid;
+    grid-template-columns: 1fr 3fr ;
+    background-color: #e3a30e;
+    height: 400px;
+    width: 100%;     
+    padding: auto;
+    margin: 20px auto;   
+
+}
+
+.intro__container h1{
+    color:rgb(51, 51, 58);
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 120px 120px;
+    margin-top: 10px;
+}
+
+.intro__container p {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 8px;
+    text-transform: uppercase;
+}
+
+.intro__youtube {
+    border: 5px solid;
+    width: 425px;
+    height: 300px;
+    background: none;
+    color: #FFF;
+    padding: 0px;
+    margin: 85px 20px; 
+}
+
+
+/*Corpo*/
+
+.consultoria {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3.125rem;
+    align-items: center;
+    padding: 6rem 5rem; 
+    
+}
+
+.consultoria__image {
+    max-width: 550px;  
+    
+  }  
+
+.consultoria__container {
+    padding: 1rem 0rem;
+}
+
+.consultoria__container h6 {
+    font-size: 0.875rem;
+    font-weight: 900;
+    letter-spacing: 0.06rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.consultoria__container h4 {
+    font-size: 1.562rem ;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.consultoria__container p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.6875rem;
+    font-weight: 300;  
+    margin-bottom: 0;
+    margin-bottom: 2.5rem;
+}   
+
+.btn--consultoria {
+    justify-content:start;
+}
+.btn--consultoria:hover {
+    color:#e3a30e;
+    background: unset;
+    
+}
+
+.quemsoueu__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    height: auto;
+    background-color: #e3a30e;
+    color: #fff;
+    margin:0;
+   
+}
+
+.quemsoueu__info p{
+    margin: auto 100px;
+    align-items: center;   
+    
+}
+
+.quemsoueu__image {   
+    max-width: 450px;
+    margin: 25px auto;
+    padding: 0;
+    border: 5px solid;
+    color:rgb(51, 51, 58);   
+       
+}
+
+.btn--contato {      
+    margin:auto;
+    padding:auto;    
+    border-color: #fff;
+}
+
+.btn--contato:hover {
+    color: #e3a30e;
+    background: rgb(51, 51, 58);
+    border: 5px solid rgb(51, 51, 58);
+
+}
+
+
+/*Footer*/
+.footer {
+    display: grid;    
+    background: rgb(51, 51, 58);
+    padding: 20px 1rem;
+    color:#fff;
+    
+}
+
+.footer__container h3 {
+   justify-items: end;
+    
+}
